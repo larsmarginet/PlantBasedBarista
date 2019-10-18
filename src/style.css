@@ -6,7 +6,3 @@
 
 @custom-media --small-screen(width <= 500px);
 @custom-media --large-screen(width <= 900px);
-
-h1 {
-  color: var(--colorPink);
-}
