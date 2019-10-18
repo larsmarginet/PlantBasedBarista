@@ -1,6 +1,7 @@
 .header {
   background-color: var(--colorPink);
-  padding: var(--mediumMargin);
+  padding: var(--largeMargin);
+  display: flex;
 }
 
 .h2-like {
