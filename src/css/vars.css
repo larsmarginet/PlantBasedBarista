@@ -1,2 +1,14 @@
-/* Custom media (zie slides */
-/* calc om spacer te delen */
+:root {
+  --colorPink: #f9d2cb;
+  --textColor: #212121;
+  --colorBlue: #a3f4dc;
+  --colorLightGrey: #efefef;
+  --colorGrey: #9c9c9c;
+  --colorTotalGey: #fafafa;
+  --smallfont: .75rem; /*12px*/
+  --mediumfont: 1.13rem; /*18px*/
+  --bigfont: 1.63rem; /*26px*/
+  --smallMargin: .75rem; /*12px*/
+  --mediumMargin: 1.88rem; /*30px*/
+  --largeMargin: 1.88rem; /*30px*/
+}
