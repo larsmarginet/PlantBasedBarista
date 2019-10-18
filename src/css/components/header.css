@@ -2,3 +2,12 @@
   background-color: var(--colorPink);
   padding: var(--mediumMargin);
 }
+
+.h2-like {
+  text-transform: uppercase;
+  font-size: var(--smallfont);
+}
+
+.h1-like {
+  font-size: var(--bigfont);
+}

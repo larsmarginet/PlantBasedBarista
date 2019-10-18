@@ -7,6 +7,6 @@
 @custom-media --small-screen(width <= 500px);
 @custom-media --large-screen(width <= 900px);
 
-.h2-like {
-  text-transform: uppercase;
+html {
+  font-family: Roboto, sans-serif;
 }
