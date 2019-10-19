@@ -1,7 +1,7 @@
 .title_mini {
   text-transform: uppercase;
   font-size: var(--smallfont);
-  margin: var(--mediumMargin);
+  margin: var(--largeMargin) 0  0 var(--largeMargin);
 }
 
 .visually-hidden {
@@ -17,6 +17,30 @@
 .emptystate__content {
   color: var(--colorGrey);
   margin: var(--mediumMargin);
+}
+
+.order {
+  border-bottom: var(--colorLightGrey) solid calc(var(--smallfont) / 12);
+  display: grid;
+  padding: var(--mediumMargin) var(--largeMargin);
+  grid-template-columns: auto 4rem 1rem;
+  font-size: var(--mediumfont);
+}
+
+.order__amount {
+  margin-right: var(--mediumMargin);
+  font-weight: bold;
+  color: var(--colorPink);
+}
+
+.order__price {
+  justify-self: end;
+}
+
+.remove {
+  color: var(--colorGrey);
+  font-size: var(--mediumfont);
+  margin-top: calc((var(--smallMargin) * -1) / 2);
 }
 
 .total {
