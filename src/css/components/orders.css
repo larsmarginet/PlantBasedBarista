@@ -1,6 +1,7 @@
 .title_mini {
   text-transform: uppercase;
   font-size: var(--smallfont);
+  margin: var(--mediumMargin);
 }
 
 .visually-hidden {
@@ -19,9 +20,13 @@
 }
 
 .orders__wrapper {
-  padding: var(--largeMargin);
+  /* padding: var(--largeMargin); */
 }
 
 .total {
   background-color: var(--colorTotalGey);
+  padding: var(--mediumMargin) var(--largeMargin);
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
 }
