@@ -19,10 +19,6 @@
   margin: var(--mediumMargin);
 }
 
-.orders__wrapper {
-  /* padding: var(--largeMargin); */
-}
-
 .total {
   background-color: var(--colorTotalGey);
   padding: var(--mediumMargin) var(--largeMargin);
