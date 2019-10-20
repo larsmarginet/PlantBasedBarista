@@ -5,6 +5,10 @@
   padding: 0 var(--largeMargin) var(--largeMargin) var(--largeMargin);
 }
 
+.prices__list li:nth-of-type(1n+5) {
+  display: none;
+}
+
 .prices {
   background-color: var(--colorPink);
 }
@@ -40,4 +44,8 @@
   opacity: .5;
   color: var(--colorGrey);
   font-size: var(--smallfont);
+}
+
+.prices__img {
+  display: none;
 }

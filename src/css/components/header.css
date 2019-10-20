@@ -1,6 +1,7 @@
 .header {
   background-color: var(--colorPink);
   display: flex;
+  justify-content: space-between;
   padding: var(--largeMargin);
 }
 

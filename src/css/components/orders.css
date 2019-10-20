@@ -41,6 +41,7 @@
   color: var(--colorGrey);
   font-size: var(--mediumfont);
   margin-top: calc((var(--smallMargin) * -1) / 2);
+  cursor: pointer;
 }
 
 .total {
