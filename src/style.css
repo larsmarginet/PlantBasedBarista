@@ -4,6 +4,9 @@
 @import './css/components/pricelist.css';
 @import './css/components/orders.css';
 
+@custom-media --small-screen (width >= 600px);
+@custom-media --large-screen (width >= 900px);
+
 html {
   font-family: Roboto, sans-serif;
   color: var(--textColor);
