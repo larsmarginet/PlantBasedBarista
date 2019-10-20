@@ -20,9 +20,9 @@ import data from './assets/coffees.json';
     data.coffees.forEach(coffee => {
       if (coffee.plantbased) {
         const listItem = list.appendChild(document.createElement(`li`));
+        listItem.classList.add('price');
         const $id = id ++;
         listItem.innerHTML = `
-          <li class="price">
           <a class="price__button">
             <span class="price__button__wrapper">
               <span data-quantity="1" data-id="${$id}" class="price__button__name">${coffee.name}</span>
@@ -30,7 +30,7 @@ import data from './assets/coffees.json';
             </span>
             <span class="price__button__plus">+</span>
           </a>
-        </li>`;
+        `;
       }
     });
   };

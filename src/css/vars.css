@@ -11,7 +11,7 @@
   --smallMargin: .75rem; /*12px*/
   --mediumMargin: 1rem; /*16px*/
   --largeMargin: 1.88rem; /*30px*/
-}
 
-@custom-media --small-screen(width <= 500px);
-@custom-media --large-screen(width <= 900px);
+  @custom-media --small-screen (width >= 600px);
+  @custom-media --large-screen (width >= 900px);
+}
