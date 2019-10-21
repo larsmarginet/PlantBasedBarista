@@ -1,2 +1,2 @@
 # PlantBasedBarista
--- URL voorzien van Netlify of Now project --
+https://vigilant-edison-2ad985.netlify.com/
